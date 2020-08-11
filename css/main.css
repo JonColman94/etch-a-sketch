@@ -4,11 +4,16 @@
 
 body {
     text-align: center;
+
+    background-color: rgb(245, 235, 238);
 }
 
 h1 {
     font-size: 50px;
     margin-top: 5vh;
+    padding-bottom: 10px;
+
+    color: rgb(68, 34, 44);
 }
 
 #color-options {
