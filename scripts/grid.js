@@ -157,6 +157,9 @@ function createColorPickerDiv() {
     paintModes.setCurrentPaintMode("pick a color");
 
     let div = document.querySelector("#color-options");
+
+    if (document.querySelector("#color-picker-div")) return;
+
     let colorPickerDiv = document.createElement("div");
     colorPickerDiv.id = "color-picker-div";
     let colorPicker = document.createElement("input");
