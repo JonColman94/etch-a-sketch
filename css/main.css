@@ -25,6 +25,19 @@ h1 {
     margin-bottom: 10px;
 }
 
+#grid-options {
+    min-width: 220px;
+    width: 14vw;
+
+    display: flex;
+
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    margin: auto;
+    margin-top: 5px;
+}
+
 #color-option-buttons {
     display: flex;
 
